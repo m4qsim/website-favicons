@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Website Favicons",
+  "description": "Extension to displaying website favicons in Google search",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
