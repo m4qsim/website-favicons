@@ -8,7 +8,6 @@ for (i = 0; i < parent.length; i++) {
         let linkFavicon = 'http://www.google.com/s2/favicons?domain=' + domain;
 
         favicon.setAttribute('src', linkFavicon);
-        favicon.setAttribute('class', 'added-favicon');
         parent[i].prepend(favicon);
         favicon.style.marginRight = '5px';
     }
